@@ -7,6 +7,7 @@ class User(UserMixin):
 
     USERS = {
         # username: password
+        'admin': 'admin',
         'john': 'doe',
         'mary': 'jane'
     }
