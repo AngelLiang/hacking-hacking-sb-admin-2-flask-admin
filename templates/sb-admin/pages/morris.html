@@ -9,16 +9,16 @@
 {% block body %}
 <div class="row">
 	<div class="col-lg-6">
-		{{area_chart("Area Chart Example")}}
+		{{ area_chart("Area Chart Example") }}
 	</div>
 	<div class="col-lg-6">
-		{{bar_chart("Bar Chart Example")}}
+		{{ bar_chart("Bar Chart Example") }}
 	</div>
 	<div class="col-lg-6">
-		{{line_chart("Line Chart Example")}}
+		{{ line_chart("Line Chart Example") }}
 	</div>
 	<div class="col-lg-6">
-		{{donut_chart("Donut Chart Example")}}
+		{{ donut_chart("Donut Chart Example") }}
 	</div>
 	<div class="col-lg-12">
 		<div class="panel panel-default">
@@ -41,7 +41,7 @@
 {% block tail %}
 
     <!-- Morris Charts JavaScript -->
-    <script src="/bower_components/raphael/raphael-min.js"></script>
+    <script src="/bower_components/raphael/raphael.min.js"></script>
     <script src="/bower_components/morrisjs/morris.min.js"></script>
     <script src="/js/morris-data.js"></script>
 
